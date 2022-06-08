@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+p{  
+    font-size: 30px;
+    color: white;
+}
+#container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(  assets/dance1.jpeg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+#content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* position: absolute; */
+}
+#left {
+    margin-left: 6%; 
+    display: flex;
+    /* justify-self: flex-start; */
+    align-self: center;
+}
+#vid2 {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    display: none;
+  }
+#vid {
+    border-color: red;
+    border-width: 10px;
+}
+#right {
+    margin-right: 10%;
+    display: flex;
+    /* float: right; */
+    /* align-self: center; */
+    flex-direction: column;
+    justify-content: space-around;
+    /* justify-self: flex-end; */
+}
+#cl1 {
+    width: auto;
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+}
+
+#cl2 {
+    width: auto;
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+}
+progress[value] {
+    appearance: none; /* Needed for Safari */
+    border: none; /* Needed for Firefox */
+    color: #e52e71; /* Fallback to a solid color */
+    width: 100%;
+  }
+  
+ 
+p {
+    float: left;
+}
+
+#icon1 {
+    cursor: pointer;
+}
+#icon2 {
+    cursor: pointer;
+}
